@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+  
+  //Dexter is 8 years old
+  
+  int dog_age = 4;
+  int early_years, later_years, human_years;
+  
+  //first 2 years
+  
+ early_years = 21;
+  
+  //each following year
+  
+  later_years = (dog_age - 2) * 4;
+    
+  //human years is early years + later years
+  
+    human_years = early_years + later_years;
+  
+  std::cout<<"My name is Lola! Ruff ruff, I am " <<human_years << " years old in human years.\n";
+}
